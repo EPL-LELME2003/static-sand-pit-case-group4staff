@@ -6,7 +6,7 @@ model = pyo.ConcreteModel()
 
 
 # Define model parameters
-model.H2inNH3 = pyo.Param(initialize=0.18)
+model.H2inNH3 = pyo.Param(initialize=0.2) # changed from 0.18 to 0.2 to test push access
 
 
 
