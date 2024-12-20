@@ -37,6 +37,6 @@ model.maxCO2Constr = pyo.Constraint(rule=maxCO2)
 solver = pyo.SolverFactory('/Users/xrixhon/Documents/Software/AMPL/gurobi')
 sol = solver.solve(model)
 
-
+print('test')
 print(model.boatsCH4.value)
 print(model.boatsNH3.value)
